@@ -12,17 +12,59 @@
     <h1>Join us today!</h1>
     <nav>
         <ul class="top">
-            <li><a href="index.html">Home </a></li> 
+            <li><a href="index.html">Home </a></li>
             <li><a href="classes.html">Classes </a></li>
             <li><a href="info.html">Registration Information</a></li>
         </ul>
     </nav>
+    <form method="get" action="thankyou.html">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname" id="firstname" required placeholder="First Name"> <br>
+        <label for="lastname">Last Name:</label>
+        <input type="text" name="lastname" id="lastname" required placeholder="Last Name"> <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required placeholder="Email"><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" required placeholder="Phone Number"><br>
+        Please select your perferred class time:
+        AM <input type="radio" id="am" name="ampm" required>
+        PM <input type="radio" id="pm" name="ampm" required><br>
+        Please select all classes you're interested in: <br>
+        <input type="checkbox" name="Zumba" id="Zumba" value="Zumba">
+        <label for="Zumba">Zumba</label>
+        <input type="checkbox" name="MixxedFit" id="MixxedFit" value="MixxedFit">
+        <label for="MixxedFit">Mixxed Fit</label>
+        <input type="checkbox" name="AdvancedCrossTraining" id="AdvancedCrossTraining"
+            value="AdvancedCrossTraining">
+        <label for="AdvancedCrossTraining">Advanced Cross Training</label>
+        <input type="checkbox" name="StepInterval" id="StepInterval" value="StepInterval">
+        <label for="StepInterval">Step Interval</label>
+        <input type="checkbox" name="BodyPump" id="BodyPump" value="BodyPump">
+        <label for="BodyPump">Body Pump</label>
+        <input type="checkbox" name="BodyCombat" id="BodyCombat" value="BodyCombat">
+        <label for="BodyCombat">Body Combat</label>
+        <input type="checkbox" name="Spin" id="Spin" value="Spin">
+        <label for="Spin">Spin</label>
+        <input type="checkbox" name="Sprint" id="Sprint" value="Sprint">
+        <label for="Sprint">Sprint</label>
+        <input type="checkbox" name="CrossTraining" id="CrossTraining" value="CrossTraining">
+        <label for="CrossTraining">Cross Training</label> <br>
+        Please select your perferred contact method:
+        <input list="contact" name="contact" required placeholder="select">
+        <datalist id="contact">
+            <option value="Phone">
+            <option value="Email">
+            <option value="Owl">
+        </datalist> <br>
+        <input type="submit" value="submit">
+    </form>
+
     <footer>
         Email: <a href="mailto:fitforfunfitnessclub@gmail.com">fitforfunfitnessclub@gmail.com</a>
         Phone: <a href="tel:+14174778898">(417) 477-8898</a>
         Candice Black &copy; 2023
     </footer>
-    
+
 </body>
 
 </html>
