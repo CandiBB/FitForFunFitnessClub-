@@ -1,5 +1,8 @@
+.class{
+    background-image: url(gym.jpg);
+}
 img {
-  position: static;
+    position: static;
 }
 
 body {
@@ -21,7 +24,7 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -36,7 +39,7 @@ footer {
     clear: both;
     background-color: #333;
     text-align: center;
-    color: white;
+    color: whitesmoke;
     font-size: x-large;
     font-family: cursive;
 }
@@ -45,26 +48,50 @@ h1 {
     text-align: center;
     font-family: cursive;
     font-size: 2em;
-    
+    color: whitesmoke;
+
 }
-table, th, td{
+
+table,
+th,
+td {
     border: 1px solid;
     border-collapse: collapse;
     text-align: center;
 }
-table{
+
+table {
     width: 100%;
     background-color: #333;
     color: whitesmoke;
+    opacity: .89;
 }
-th{
+
+th {
     height: 50px;
     background-color: darkslategray;
     color: whitesmoke;
 }
-a{
+
+a {
     color: whitesmoke;
 }
-a:hover{
+
+a:hover {
     background-color: darkslategray;
+}
+
+
+.form {
+    background-color: whitesmoke;
+    padding: 5%;
+    margin: auto;
+
+}
+label{
+    position: relative;
+    display: block;
+}
+input{
+    position: absolute; left: 28%;
 }
